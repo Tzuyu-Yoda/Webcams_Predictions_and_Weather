@@ -1,6 +1,4 @@
-'''
 Report
-'''
 
 This project aims to explore how weather of some place at a given time can be predicted by values of a few weather indicators or by simply an image at a particular time, and also possible similarities or differences found during implementation or results, between the two approaches. In specific, data about a same period of time (09/01/2017 – 10/31/2017) is taken as the experimental input as we want to compare the results of weather prediction in this period, while data prior to 09/01/2017 is used for training the model so that we could know which approach would perform better under the same initial circumstances.
 
