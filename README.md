@@ -8,7 +8,7 @@ Code exexecution:
 
 First put all files in one directory and uncompress the .zip files.
 
-Then run 'clean_data.py' on Spark to produce a single cleaned data file for ML. 
+Then run 'clean_data.py' on Spark to produce a cleaned data file. 
 
 Run on command line: spark-submit data_clean.py yvr-weather(sample input)
 
