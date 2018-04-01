@@ -1,4 +1,4 @@
-Report
+### Report
 
 This project aims to explore how weather of some place at a given time can be predicted by values of a few weather indicators or by simply an image at a particular time, and also possible similarities or differences found during implementation or results, between the two approaches. In specific, data about a same period of time (09/01/2017 – 10/31/2017) is taken as the experimental input as we want to compare the results of weather prediction in this period, while data prior to 09/01/2017 is used for training the model so that we could know which approach would perform better under the same initial circumstances.
 
@@ -14,7 +14,7 @@ At last, as the output prediction data is as well in a format of sparse matrix, 
 
 So far in my opinion predicting the weather is not an easy job, at least it is not enough to make it by simply putting some data in a simplified ML model. I did not combine the weather data features with the images features together to make predictions because I think it would be a bit confusing. But if I had more time I will certainly explore this part.
 
-Project Experience Summary
+### Project Experience Summary
 
 For the sake of fast debugging and testing, all scripts are written and tested on Jupyter notebook as the whole project is only about using Python. All calculations and input/output are mainly done with Pandas but also Spark since this is the one of most common ways to manipulate small-size data. For I/O, some techniques are used to read and write the data in format of table or image, and for calculation, different kinds of dataframe operations are carried out in order to do aggregation, iteration and data cleaning etc., which can be efficiently accomplished on Pandas.
 
