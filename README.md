@@ -6,7 +6,7 @@
 
 - Code execution:
 
-  - Put and uncompress the all .zip files in one directory.
+  - Put and uncompress all .zip files in one directory.
 
   - Run 'clean_data.py' on Spark to produce a clean data file. 
 
