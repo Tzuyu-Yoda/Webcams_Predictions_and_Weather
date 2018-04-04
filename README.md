@@ -4,11 +4,11 @@
 
   - [scikit-multilearn](https://github.com/scikit-multilearn/scikit-multilearn) (pip install scikit-multilearn)
 
-- Code exexecution:
+- Code execution:
 
-  - First put all files in one directory and uncompress the .zip files.
+  - Put and uncompress all .zip files in one directory.
 
-  - Then run 'clean_data.py' on Spark to produce a cleaned data file. 
+  - Run 'clean_data.py' on Spark to produce a clean data file. 
 
   - Run on command line: spark-submit data_clean.py yvr-weather(sample input)
 
